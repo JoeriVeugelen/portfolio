@@ -2,15 +2,17 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
+import { FaArrowRight } from "react-icons/fa6";
 
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
-      </h1>
+      <h2 className="tracking-widest uppercase text-2xl font-bold relative z-30">
+        My <span className="text-purple relative z-30">approach</span>
+        <FaArrowRight className="inline-block absolute left-0 -top-8 opacity-15 text-8xl z-0" />
+      </h2>
       {/* remove bg-white dark:bg-black */}
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <div className="mb-20 mt-10 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
           title="Planning & Strategy"
