@@ -153,7 +153,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
-          className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
+          className="absolute inset-[-1000%] animate-[spin_10s_linear_infinite]
          bg-[conic-gradient(from_90deg_at_50%_50%,#e55555_0%,#e55555_50%,#E2CBFF_100%)]"
         />
         <span
