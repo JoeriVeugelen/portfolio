@@ -90,7 +90,7 @@ const Card = ({
       style={{
         //   add these two
         //   you can generate the color from here https://cssgradient.io/
-        background: "#02080f",
+        background: "#080808",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
@@ -154,13 +154,13 @@ const AceternityIcon = ({ order }: { order: string }) => {
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_10s_linear_infinite]
-         bg-[conic-gradient(from_90deg_at_50%_50%,#e55555_0%,#e55555_50%,#E2CBFF_100%)]"
+         bg-[conic-gradient(from_90deg_at_50%_50%,#e55555_0%,#e55555_50%,#f58787_100%)]"
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-slate-950 px-5 py-2 text-purple backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-full bg-[#080808] px-5 py-2 text-purple backdrop-blur-3xl font-bold text-2xl"
         >
-          <span>{order}</span>
+          <span className="text-white">{order}</span>
         </span>
       </button>
     </div>
