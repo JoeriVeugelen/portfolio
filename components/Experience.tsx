@@ -20,7 +20,7 @@ const Experience = () => {
             style={{
               //   add these two
               //   you can generate the color from here https://cssgradient.io/
-              background: "rgb(4,7,29)",
+              background: "#02080f",
               backgroundColor:
                 "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
               // add this border radius to make it more rounded so that the moving border is more realistic
