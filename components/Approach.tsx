@@ -22,9 +22,10 @@ const Approach = () => {
           navigation, and content requirements."
         >
           <CanvasRevealEffect
-            animationSpeed={5.1}
-            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
+            animationSpeed={7}
             containerClassName="bg-[#cc3b3b] rounded-3xl overflow-hidden"
+            colors={[[8, 8, 8]]}
+            dotSize={2}
           />
         </Card>
         <Card
@@ -35,19 +36,11 @@ const Approach = () => {
           every step of the way."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
-            // change bg-black to bg-pink-900
+            animationSpeed={7}
             containerClassName="bg-[#cc3b3b] rounded-3xl overflow-hidden"
-            colors={[
-              // change the colors of the
-              [255, 166, 158],
-              [221, 255, 247],
-            ]}
+            colors={[[8, 8, 8]]}
             dotSize={2}
           />
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
           title="Development & Launch"
@@ -57,9 +50,10 @@ const Approach = () => {
           from the ground up."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
+            animationSpeed={7}
             containerClassName="bg-[#cc3b3b] rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
+            colors={[[8, 8, 8]]}
+            dotSize={2}
           />
         </Card>
       </div>
@@ -155,8 +149,8 @@ const AceternityIcon = ({ order }: { order: string }) => {
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
-          className="absolute inset-[-1000%] animate-[spin_10s_linear_infinite]
-         bg-[conic-gradient(from_90deg_at_50%_50%,#e55555_0%,#e55555_50%,#f58787_100%)]"
+          className="absolute inset-[-1000%] animate-[spin_15s_linear_infinite]
+         bg-[conic-gradient(from_90deg_at_50%_50%,#080808_0%,#080808_50%,#e55555_100%)]"
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
