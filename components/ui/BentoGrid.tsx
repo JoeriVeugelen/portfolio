@@ -111,6 +111,9 @@ export const BentoGridItem = ({
             />
           )}
         </div>
+        {id === 1 && (
+          <div className="absolute w-full h-full top-0 left-0 bg-black opacity-90"></div>
+        )}
         {id === 6 && (
           // add background animation , remove the p tag
           <BackgroundGradientAnimation>

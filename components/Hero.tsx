@@ -60,7 +60,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Joeri, a Next.js Developer from Belgium.
+            Hi! I&apos;m Joeri, a Web Developer from Belgium.
           </p>
 
           <a href="#about">
