@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "our",
-    description: "We are know for",
+    title: "our strengths",
+    description: "We value",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
