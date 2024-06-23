@@ -114,6 +114,9 @@ export const BentoGridItem = ({
         {id === 1 && (
           <div className="absolute w-full h-full top-0 left-0 bg-black opacity-90"></div>
         )}
+        {id === 5 && (
+          <div className="absolute w-full h-full top-0 left-0 bg-black opacity-90 md:opacity-40"></div>
+        )}
         {id === 6 && (
           <BackgroundGradientAnimation>
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
@@ -188,7 +191,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email"}
+                title={copied ? "Email is Copied!" : "Copy email"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
