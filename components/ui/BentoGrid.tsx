@@ -112,7 +112,7 @@ export const BentoGridItem = ({
           )}
         </div>
         {id === 1 && (
-          <div className="absolute w-full h-full top-0 left-0 bg-black opacity-90"></div>
+          <div className="absolute w-full h-full top-0 left-0 bg-black opacity-75"></div>
         )}
         {id === 5 && (
           <div className="absolute w-full h-full top-0 left-0 bg-black opacity-90 md:opacity-40"></div>
